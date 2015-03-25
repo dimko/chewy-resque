@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Dimko"]
   spec.email         = ["deemox@gmail.com"]
   spec.summary       = %q{Resque integration for chewy}
-  spec.description   = %q{Background atomic & urgent strategies for Chewy gem}
+  spec.description   = %q{Resque atomic & urgent strategies for Chewy gem}
   spec.homepage      = ""
   spec.license       = "MIT"
 

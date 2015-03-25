@@ -1,6 +1,6 @@
 module Chewy
   class Strategy
-    class BackgroundUrgent < BackgroundBase
+    class ResqueUrgent < ResqueBase
       def update(type, objects, options = {})
         ids = type.adapter.identify(objects)
         enqueue(type, ids)

@@ -1,6 +1,6 @@
 module Chewy
   class Strategy
-    class BackgroundAtomic < BackgroundBase
+    class ResqueAtomic < ResqueBase
       def initialize
         @stash = {}
       end

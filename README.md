@@ -1,6 +1,6 @@
 # [WIP] Chewy::Resque
 
-Background atomic & urgent strategies for [Chewy](https://github.com/toptal/chewy) gem.
+Resque atomic & urgent strategies for [Chewy](https://github.com/toptal/chewy) gem.
 
 ## Installation
 

@@ -1,6 +1,6 @@
 module Chewy
   class Strategy
-    class BackgroundBase < Base
+    class ResqueBase < Base
       def enqueue(type, ids)
         unless ids.empty?
           ::Resque.enqueue Chewy::Resque::Worker, type.derived_name, ids
